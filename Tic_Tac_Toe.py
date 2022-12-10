@@ -54,7 +54,9 @@ def winner_check():
 
 #Resets the Text value of Buttons and the values of the board_Double 
 def reset(b1,b2,b3,b4,b5,b6,b7,b8,b9):
-    
+    global count
+    count=0
+
     #resetting the text values of the Buttons
     b1["text"]=""
     b2["text"]=""
